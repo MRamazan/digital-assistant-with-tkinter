@@ -88,8 +88,7 @@ def resized(img1, width, height):
 
 class ImageButton(tk.Button):
     """
-    A Label that displays images, and plays them if they are gifs
-    :im: A PIL Image instance or a string filename
+    tk.Button sınıfını miras alarak yeni özellikler ekleyen(butona gif eklemek)  sınıf.
     """
 
 
